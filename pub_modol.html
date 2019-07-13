@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="zh-cmn-Hant">
+	<head>
+		<title>{$setting.webtitle}</title>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="author" content="深圳卓越迈创(http://www.szmynet.com/)" />
+		<!-- 控制缩放比例 -->
+		<meta name="viewport" content="initial-scale=1.0,width=device-width,height=device-height,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<!-- 不让百度转码 -->
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/core.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<!--<link rel="Shortcut Icon" href="" />-->
+	</head>
+	<body>
+		<!-- Header -->
+		<div class="Header-wrapper">
+			<div class="header-container">
+				<div class="contain clearfix">
+					<a href="index.html" title="" class="H-logo">
+						<img src="images/logo.png" alt="" class="" />
+						<img src="images/logo2.png" alt="" class="rollover" />
+					</a>
+					<div class="Hmenu-btn H-rMenu-btn">
+						<a href="javascript:;" title=""></a>
+					</div>
+					<div class="Hmenu-btn Hmenu-web">
+						<a href="javascript:;" title=""></a>
+					</div>
+					<ul class="H-nav clearfix">
+						<li> <a href="list-1.html" title="" class="Hnav-menu">关于我们<i></i></a>
+							<div class="Hnav-sub">
+								<div class="contain clearfix">
+									<ul class="HnavSub-list clearfix">
+										<li><a href="list-10.html" title="">公司简介</a>
+										</li>
+										<li><a href="list-10.html#a2" title="">荣誉资质</a>
+										</li>
+										<li><a href="list-10.html#a3" title="">加入我们</a>
+										</li>
+									</ul>
+									<div class="HnavSub-box">
+										<div class="t">关于我们</div>
+										<div class="c">日海物联公共事业智慧抄表，集成智能水表/电表/气表，在线监测、安全防范、统计报表、阶梯价格、用期预测、大数据分析等管理功能。</div>
+									</div>
+									<div class="HnavSub-img com-img">
+										<img src="images/core/top_subpic.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li><a href="list-2.html" title="" class="Hnav-menu">核心能力<i></i></a>
+							<div class="Hnav-sub">
+								<div class="contain clearfix">
+									<ul class="HnavSub-list clearfix">
+										<li><a href="list-19.html" title="">云平台</a>
+										</li>
+										<li><a href="list-20.html" title="">模组</a>
+										</li>
+										<li><a href="list-21.html" title="">增值服务</a>
+										</li>
+									</ul>
+									<div class="HnavSub-box">
+										<div class="t">核心能力</div>
+										<div class="c">日海物联公共事业智慧抄表，集成智能水表/电表/气表，在线监测、安全防范、统计报表、阶梯价格、用期预测、大数据分析等管理功能。</div>
+									</div>
+									<div class="HnavSub-img com-img">
+										<img src="images/core/top_subpic.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="list-3.html" title="" class="Hnav-menu">解决方案<i></i></a></li>
+						<li><a href="list-4.html" title="" class="Hnav-menu">服务支持<i></i></a></li>
+						<li><a href="list-5.html" title="" class="Hnav-menu">新闻中心<i></i></a></li>
+						<li><a href="list-6.html" title="" class="Hnav-menu">联系我们</a></li>
+					</ul>
+
+					<div class="H-action">
+						<div class="H-srch">
+							<a href="javascript:;" title="" class="Hsrch-menu"></a>
+							<div class="Hsrch-box">
+								<div class="Hsrch-block contain clearfix">
+									<form action="search.html" method="post" id="top_form">
+										<input type="submit" value="" class="btn" id="top_btn" />
+										<input type="text" placeholder="搜索..." class="text" name="top_key" id="top_key" />
+										<a href="javascript:;" title="" class="close"></a>
+									</form>
+								</div>
+							</div>
+						</div> <span class="split"></span>
+						<div class="H-lang">
+							<a href="javascript:;" title="" class="Hlang-menu"></a>
+							<div class="Hlang-box"> <a href="#" title="" class="CN">中文-Chinese</a>  <a href="#" title="" class="EN">英语-English</a> 
+						</div>
+						</div> <span class="split"></span>
+						<div class="H-user">
+							<a href="login.html" title="" class="Huser-menu"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			$("#top_btn").click(function(){
+				var top_key=$.trim($("#top_key").val());
+				if(top_key==''){alert("请输入关键词");return false;}
+				$("#top_form").submit();
+			})
+		</script>
+		
+		<!-- Banner -->
+		<div class="banner-container index-bnr" id="index-bnr">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="javascript:;" title="" class="bnr-img iBnr-1">
+							<div class="bnr-bg" style="background-image:url(images/bann/banner1.jpg);"></div>
+							<div class="iBnr1-box">
+								<div class="t1">前端开发是 一个有趣的过程</div>
+								<div class="t2">全新供应链新模式，构建万亿物联生态</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="javascript:;" title="" class="bnr-img iBnr-1">
+							<div class="bnr-bg" style="background-image:url(images/bann/banner2.jpg);"></div>
+							<div class="iBnr1-box">
+								<div class="t1">世间万物皆为对象</div>
+								<div class="t2">全新供应链新模式，构建万亿物联生态</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<div class="banner-container" id="web-bnr">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="" title="" class="bnr-img"><img src="images/core/top_subpic.jpg" alt=""></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="" title="" class="bnr-img"><img src="images/core/top_subpic.jpg" alt=""></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="" title="" class="bnr-img"><img src="images/core/top_subpic.jpg" alt=""></a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<!-- Container -->
+		<div class="Container-wrapper">
+			<a href="javascript:;" class="show-more vplay" data-src="http://www.baidu.com/"><span>查看详情</span></a>
+
+			<div class="FormTiem-Box">
+					<div class="FormTiem-Size">
+						<input type="text" name="" id="UserText">
+					</div>
+					<div class="FormTiem-Size">
+						<input type="text" name="" id="Email">
+					</div>
+					<div class="FormTiem-Size">
+						<input type="text" name="" id="TelPhone">
+					</div>
+					<div class="FormTiem-Size">
+						<input type="text" name="" id="MobilePhone">
+					</div>
+					<div class="FormTiem-Size">
+						<textarea name="" id="Massage" cols="30" rows="10"></textarea>
+					</div>
+					<div class="FormTiem-Size">
+						<input type="text" name="" id="AuthCode">
+					</div>
+					<div id="RadioChecked">
+						男<input type="radio" name="RadioChecked" value="男" />
+						女<input type="radio" name="RadioChecked" value="女" />
+					</div>
+					<button id="inp_submit">提交</button>
+				</div>
+
+		    <!-- 弹出窗口 -->
+			<div class="wfix">
+				<div class="wsbox">
+					<div class="wsboxwrap">
+						<div class="w-title">提示</div>
+		
+						<div class="w-content">
+							<p></p>
+						</div>
+		
+						<div class="w-close">
+							确定
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 弹出窗口 -->
+		</div>
+
+		<!-- Footer -->
+		<div class="Footer-wrapper">
+			<div class="footer-container">
+				<div class="contain clearfix">
+					<dl class="F-nav"> 
+						<dt>关于我们<i></i></dt>
+						<dd>
+							<a href="list-10.html" title="">公司简介</a>
+							<a href="list-10.html#a2" title="">荣誉资质</a>
+							<a href="list-10.html#a3" title="">加入我们</a>
+						</dd>
+					</dl>
+
+					<dl class="F-nav"> 
+						<dt>核心能力<i></i></dt>
+						<dd>
+							<a href="list-19.html" title="">云平台</a>
+							<a href="list-20.html" title="">模组</a>
+							<a href="list-21.html" title="">增值服务</a>
+						</dd>
+					</dl>
+
+					<dl class="F-nav"> 
+						<dt>解决方案<i></i></dt>
+						<dd><a href="list-26.html" title="">智慧城市</a>
+							<a href="list-27.html" title="">智慧水利</a>
+							<a href="list-25.html" title="">智慧农业</a>
+							<a href="list-23.html" title="">资产物流</a>
+							<a href="list-22.html" title="">公共事业</a>
+							<a href="list-24.html" title="">消费电子</a>
+						</dd>
+					</dl>
+
+					<dl class="F-nav"> <dt>服务支持<i></i></dt>
+						<dd>
+							<a href="list-14.html" title="" target="_blank">开发者入口</a>
+							<a href="list-15.html" title="">授权许可协议</a>
+							<a href="list-16.html" title="" target="_blank">技术支持</a>
+							<a href="list-17.html" title="">法律条款</a>
+							<a href="list-18.html" title="">资源下载</a>
+						</dd>
+					</dl>
+
+					<dl class="F-nav"> 
+						<dt>新闻中心<i></i></dt>
+						<dd>
+							<a href="list-7.html" title="">公司新闻</a>
+							<a href="list-8.html" title="">媒体报道</a>
+							<a href="list-9.html" title="">行业动态</a>
+						</dd>
+					</dl>
+
+					<div class="F-split"></div>
+					<div class="F-ct">
+						<div class="top">联系我们</div>
+						<div class="tel">咨询热线：<a href="javascript:;" title="">400-990-0410</a></div>
+						<div class="adr">地址：深圳南山区大新路198号马家龙创新大厦16层</div>
+						<div class="F-code">
+							<img src="images/core/ewm.jpg" alt="" />
+							<div class="type">微信号：日海物联</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="F-cr">Copyright 2010 - 2017 All Rights Reserved 版权所有：深圳日海物联技术有限公司 <a href="http://www.miitbeian.gov.cn/"
+				 target="_blank"> 粤ICP备17144182号-2</a> <a href="http://www.szmynet.com/" target="_blank">深圳网站建设</a>:<a href="http://www.szmynet.com/"
+				 target="_blank">卓越迈创</a>
+			</div>
+		</div>
+		<!-- Footer -->
+
+		<!-- 视频 - 弹框 -->
+		<div class="media-modal">
+			<div class="mediaModal-contain">
+				<a href="javascript:;" title="" class="close"></a>
+				<video controls autoplay name="media">
+					<source src="" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		
+		<!-- js -->
+		<script type="text/javascript" src="js/custom.js"></script>
+		<!-- swiper -->
+		<link rel="stylesheet" type="text/css" href="js/swiper/swiper.min.css">
+		<script type="text/javascript" src="js/swiper/swiper.min.js"></script>
+		<!-- verify -->
+		<link rel="stylesheet" type="text/css" href="js/verify/verify.css">
+		<script type="text/javascript" src="js/verify/verify.js"></script>
+
+		<link rel="stylesheet" href="js/media/mediaelementplayer.min.css">
+		<script src="js/media/mediaelement-and-player.min.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+				//Banner
+				var indexBSwiper = new Swiper('#index-bnr .swiper-container',{
+					pagination:'#index-bnr .swiper-pagination',
+					autoplay:3000,
+					effect:'fade',
+					speed:200,
+					loop:true,
+					prevButton:'',
+					nextButton:'',
+					paginationClickable:true,
+					autoplayDisableOnInteraction:false,
+					onInit: function(swiper){
+						$('#index-bnr .swiper-pagination .swiper-pagination-bullet').removeClass("swiper-pagination-bullet-active");
+						setTimeout(function(){
+							$('#index-bnr .swiper-pagination .swiper-pagination-bullet').eq(0).addClass("swiper-pagination-bullet-active");
+						},0);
+					}
+				});
+
+				$("#index-bnr").on({
+					mouseover:function(){
+						indexBSwiper.stopAutoplay();
+					},
+					mouseout:function(){
+						indexBSwiper.startAutoplay();
+					}
+				});
+	
+				var indexBnrSwiper = new Swiper('#web-bnr .swiper-container',{
+					pagination:'#web-bnr .swiper-pagination',
+					speed:1000,
+					prevButton:'',
+					nextButton:'',
+					paginationClickable:true,
+					autoplayDisableOnInteraction:false
+				});
+
+				//视频
+				var MediaPlayer = null;
+				$(".vplay").bind("click",function(){
+					$(".mediaModal-contain video").attr("src",$(this).attr("data-src"));
+					if(MediaPlayer == null) MediaPlayer = new MediaElementPlayer($(".mediaModal-contain video"));
+					$("body").css("overflow-y","hidden");
+					$(".media-modal").show();
+					$(".media-modal").animate({"opacity":"1"},600);
+					$(".mediaModal-contain").slideDown(600);
+					setTimeout(function(){MediaPlayer.play();},1000);
+				});
+
+				$(".mediaModal-contain .close").bind("click",function(){
+					MediaPlayer.pause();
+					$(".mediaModal-contain").slideUp();
+					$(".media-modal").animate({"opacity":"0"},600,function(){
+						$(".media-modal").hide();					
+						$("body").css("overflow-y","auto");
+					});
+				});
+
+			})
+		</script>
+	</body>
+</html>

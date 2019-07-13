@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+/* 常见问题 */
+.pub-tit1{color:#333;font-size:36px;padding-bottom:20px;position: relative;text-align:center;}
+.pub-tit1:after{position:absolute;content:"";width:184px;height:1px;background:#e5e5e5;left:50%;bottom:0px;margin-left:-92px;}
+.pub-tit1:before{position: absolute;content:"";width:40px;height:3px;background:#ca2b25;left:50%;bottom:-1px;margin-left:-20px;z-index:2;}
+.faqList .box{padding:70px 0 50px;}
+.faqList dl{margin-bottom: 20px;padding-bottom: 20px;border-bottom: 1px solid #e5e5e5;}
+.faqList dl dt{color:#333;font-size:16px;background:url(../images/icon/show.jpg) no-repeat right center;cursor:pointer;padding-right:20px;}
+.faqList dl dt.cur{background:url(../images/icon/hide.jpg) no-repeat right center;}
+.faqList dl dd{color:#666;font-size:14px;margin-top:20px;line-height:26px;padding:0 20px;display:none;}
+
+/* 新闻列表页 */
+.newsList li{overflow: hidden;margin-bottom:30px;padding-bottom:30px;border-bottom:1px solid #eee;}
+.newsImg{float:left;width:21%;}
+.newsNote{float:right;width:75%;}
+.newsNote h4{color:#333;font-weight:bold;margin-bottom:20px;font-size:18px;}
+.newsNote .note{color:#777;line-height:30px;margin:25px auto 45px;}
+.newsNote span{color:#999999;}
+.newsNote h4:hover{color:#ca2b25;}
+
+/* 新闻详情页 */
+.artInfo-left .artInfo-name{text-align:center;font-size:30px;color:#333;}
+.artInfo-left .artInfo-ab{text-align:center;line-height:22px;color:#999999;margin:30px auto;padding-bottom:30px;border-bottom:1px solid #eee;}
+.artInfo-ab span{display:inline-block;margin:0 5px;}
+.artInfo-ab span.see{padding:0 0 0 24px;background:url(../images/icon/icon-see.png) no-repeat left center;}
+.artInfo-con{line-height:32px;color:#777777;position:relative;overflow:hidden;margin:37px 0 0;}
+.artInfo-con img{max-width:100%;}
+.artInfo-page{padding:15px 20px;line-height:24px;color:#666666;background:#f1f1f1;margin:49px 0 0;}
+.artInfo-page .type{color:#999999;margin:0 5px 0 0;}
+.artInfo-page a{display:block;width:46%;}
+.artInfo-page a.fr{text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.artInfo-page a:hover{color:#ca2b25;}
+.artInfo-page a span{color:#666;}
+.artInfo-action{line-height:24px;font-size:12px;color:#b1b1b1;position:relative;margin:33px 0 0;}
+.artInfo-action .bdsharebuttonbox{text-align:center;}
+
+.artInfo-action .bdsharebuttonbox a{display:inline-block;width:22px;height:21px;background:url(../images/icon/icon_share.jpg) no-repeat left center;}
+.bdsharebuttonbox a#bds_more{background-position:0px 0px;float:none;}
+.bdsharebuttonbox a#bds_qzone{background-position:-27px 0px;float:none;}
+.bdsharebuttonbox a#bds_tsina{background-position:-54px 0px;float:none;}
+.bdsharebuttonbox a#bds_tqq{background-position:-81px 0px;float:none;}
+.bdsharebuttonbox a#bds_renren{background-position:-108px 0px;float:none;}
+.bdsharebuttonbox a#bds_weixin{background-position:-135px 0px;float:none;}
+
+/* 经典案例 */
+.caseList{margin-bottom:65px;}
+.caseList .casebox{float:left;width:31.25%;float:left;margin-left:3.125%;font-size:18px;color:#333333;text-align:center;transition:all 0.5s;}
+.caseList .casebox h4{padding:15px 0;}
+.caseList .casebox:hover{background:#fff;box-shadow: 0 0 16px #eee;}
+.caseList .casebox:first-child{margin-left:0px;}
+
+/* 联系我们 */
+.ctmodel ul{overflow: hidden;margin: 70px auto;}
+.ctmodel ul li{width:20%;float:left;text-align:center;border-left:1px solid #e5e5e5;color:#777;}
+.ctmodel ul li:first-child{border:0px;}
+.ctmodel ul li span{display:block;width:102px;height:102px;text-align:center;line-height:102px;margin:0px auto;border-radius:50%;border:1px solid #eee;}
+.ctmodel ul li h4{font-weight:bold;font-size:16px;color:#333333;margin:35px auto 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
